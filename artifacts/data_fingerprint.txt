@@ -1,0 +1,6 @@
+Student ID: 25/27330
+Verification Code: AI-A2-7330
+Seed: 7330
+Base Rows: 272
+Final Rows: 275
+SHA-256: 6e2ed43b4878394555bb19d613c48d6ea7f7bc6b2ba8bca0b2b7cb0ebfc1c813

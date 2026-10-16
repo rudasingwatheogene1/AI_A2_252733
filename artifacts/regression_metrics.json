@@ -1,0 +1,32 @@
+{
+    "student_id": "25/27330",
+    "verification_code": "AI-A2-7330",
+    "seed": 7330,
+    "test_size": 0.2,
+    "baseline": {
+        "name": "Mean Baseline",
+        "metrics": {
+            "MAE": 2.1610769008264463,
+            "RMSE": 2.6323582769486453,
+            "R2": -0.016297685632715497
+        }
+    },
+    "candidates": {
+        "Linear Regression": {
+            "metrics": {
+                "MAE": 0.7831297284732849,
+                "RMSE": 0.9457824491301293,
+                "R2": 0.8688061610211474
+            }
+        },
+        "Random Forest": {
+            "metrics": {
+                "MAE": 0.9232710363636393,
+                "RMSE": 1.177881160336285,
+                "R2": 0.7965143019174128
+            }
+        }
+    },
+    "selected_model": "Linear Regression",
+    "selection_reason": "Selected the candidate with the highest held-out test R2."
+}

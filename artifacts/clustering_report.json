@@ -1,0 +1,52 @@
+{
+    "student_id": "25/27330",
+    "verification_code": "AI-A2-7330",
+    "seed": 7330,
+    "features": [
+        "rainfall_mm",
+        "avg_temp_c",
+        "soil_moisture_pct",
+        "fertilizer_kg",
+        "field_size_ha",
+        "cooperative_support"
+    ],
+    "tested_k": [
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "silhouette_scores": {
+        "2": 0.1737336470680111,
+        "3": 0.14795669990621205,
+        "4": 0.14851496989039983,
+        "5": 0.1559936989611758,
+        "6": 0.16476809926671823
+    },
+    "selected_k": 2,
+    "cluster_profiles": {
+        "0": {
+            "rows": 149,
+            "rainfall_mean": 1021.55,
+            "temperature_mean": 18.95,
+            "soil_moisture_mean": 49.6,
+            "fertilizer_mean": 122.68,
+            "field_size_mean": 1.93,
+            "cooperative_support_rate": 1.0
+        },
+        "1": {
+            "rows": 123,
+            "rainfall_mean": 1002.14,
+            "temperature_mean": 18.87,
+            "soil_moisture_mean": 50.52,
+            "fertilizer_mean": 136.64,
+            "field_size_mean": 2.02,
+            "cooperative_support_rate": 0.0
+        }
+    },
+    "cluster_descriptions": {
+        "0": "Cluster 0 contains 149 records. Average rainfall is 1021.55 mm, average temperature is 18.95 \u00b0C, average soil moisture is 49.6%, average fertilizer use is 122.68 kg, and average field size is 1.93 ha. Cooperative support is present in approximately 100% of records.",
+        "1": "Cluster 1 contains 123 records. Average rainfall is 1002.14 mm, average temperature is 18.87 \u00b0C, average soil moisture is 50.52%, average fertilizer use is 136.64 kg, and average field size is 2.02 ha. Cooperative support is present in approximately 0% of records."
+    }
+}
